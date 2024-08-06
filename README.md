@@ -7,7 +7,7 @@ The program must display the set of instructions used to sort the given numbers 
 ### Usage
 
 ```
-./push_swap <set_of_numbers>
+./push_swap <set_of_numbers> or ./push_swap n1, n2, n3..., n
 ```
 
 <h3>Key project takeaways</h3>
