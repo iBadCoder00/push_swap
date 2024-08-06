@@ -9,7 +9,7 @@ The program must display the set of instructions used to sort the given numbers 
 - Learn about Big O notation.
 - How to optimize a sorting algorithm.  
 - Adapt existing algorithms (Quicksort, Insertion Sort, Merge Sort...) to the current enviroment.  
-- Use the main ideas of other algorithms to create a new algorithm that suits the required task.
+- Use the main ideas of other algorithms to create a new algorithm that suits the needs of the required task.
 
 ### Side note
 Although the idea about this project is to learn about algorithmic complexity, the actual "efficiency" of the algorithm is not measaured by the time it takes to sort the numbers, but by the number of instructions. Regardless of this measure, execution time is also taken into account so that the program has a balanced time/output ratio.
