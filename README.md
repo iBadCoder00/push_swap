@@ -4,6 +4,12 @@
 <p>Create a program such that, with a given a set of instructions, sorts n numbers into a stack in ascending order as efficiently as possible. 
 The program must display the set of instructions used to sort the given numbers and the input is validated with the program 'checker_linux'. For more information about sorting instructions and rules refer to "subject.pdf".</p>
 
+### Usage
+
+```
+./push_swap <set_of_numbers>
+```
+
 <h3>Key project takeaways</h3>
 
 - Learn about Big O notation.
@@ -12,7 +18,8 @@ The program must display the set of instructions used to sort the given numbers 
 - Use the main ideas of other algorithms to create a new algorithm that suits the needs of the required task.
 
 ### Side note
-Although the idea about this project is to learn about algorithmic complexity, the actual "efficiency" of the algorithm is not measaured by the time it takes to sort the numbers, but by the number of instructions. Regardless of this measure, execution time is also taken into account so that the program has a balanced time/output ratio.
+Although the idea about this project is to learn about algorithmic complexity, the actual "efficiency" of the algorithm is not measaured by the time it takes to sort the numbers, but by the number of instructions. Regardless of this measure, execution time is also taken into account so that the program has a balanced time/output ratio.  
+I've included a bash script (linux) that simply tries with n random numbers and loops m number of times. At the end of the script, it will display the stats of all the tests (max/min number of instructions and average number of instructions).
 
 ### Books and other sources
 Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to algorithms (4th ed.). The MIT Press.  
